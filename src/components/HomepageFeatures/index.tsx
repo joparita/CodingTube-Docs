@@ -4,23 +4,26 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  urlImg: string;
+  link: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Fácil de usar',
-    Svg: require('@site/static/img/game-svgrepo-com.svg').default,
+    title: 'HTML',
+    urlImg: require('@site/static/img/demo.png').default,
+    link: 'https://www.youtube.com/watch?v=QwMlgfMK6fQ&list=PLJubkp8BnTJt-pKYkVNLt72n1hKmYmkFw',
     description: (
       <>
-        Toda la documentación que necesitas organizada de forma fácil de encontrar.
+        Toda página debe tener una estructura HTML, empieza por aquí.
       </>
     ),
   },
   {
-    title: 'Explicaciones claras',
-    Svg: require('@site/static/img/table-of-contents-svgrepo-com.svg').default,
+    title: 'CSS',
+    urlImg: require('@site/static/img/demo.png').default,
+    link: 'https://www.youtube.com/watch?v=I_RG3bNjTfQ&list=PLJubkp8BnTJt1u6z_voRiYtwskmP0VVzw',
     description: (
       <>
         Esta documentación complementa la explicación en video que encuentras en el canal de YouTube.
@@ -28,8 +31,29 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Aprende desde cero',
-    Svg: require('@site/static/img/line-graph-svgrepo-com.svg').default,
+    title: 'Javascript',
+    urlImg: require('@site/static/img/demo.png').default,
+    link: 'https://www.youtube.com/watch?v=3oSeQb94Ga4&list=PLJubkp8BnTJsDgWXWcS1Z0VDV7rAOqbU4',
+    description: (
+      <>
+        Está dirigido para personas que estan empezando en el mundo del desarrollo web, pero también para quienes ya tienen experiencia y quieren mejorar sus habilidades.
+      </>
+    ),
+  },
+  {
+    title: 'Tailwind',
+    urlImg: require('@site/static/img/demo.png').default,
+    link: 'https://www.youtube.com/watch?v=gvdvuGSksDU&list=PLJubkp8BnTJu9khizC7ywblms1YzdLO3g',
+    description: (
+      <>
+        Está dirigido para personas que estan empezando en el mundo del desarrollo web, pero también para quienes ya tienen experiencia y quieren mejorar sus habilidades.
+      </>
+    ),
+  },
+  {
+    title: 'React',
+    urlImg: require('@site/static/img/demo.png').default,
+    link: 'https://www.youtube.com/watch?v=3oSeQb94Ga4&list=PLJubkp8BnTJsDgWXWcS1Z0VDV7rAOqbU4',
     description: (
       <>
         Está dirigido para personas que estan empezando en el mundo del desarrollo web, pero también para quienes ya tienen experiencia y quieren mejorar sus habilidades.
@@ -38,11 +62,13 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, urlImg, description, link}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <a href={link} target='_blank'>
+        <img src={urlImg} alt={title} className={styles.featureSvg} />
+        </a>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -56,6 +82,9 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
+      <Heading as="h1" className="hero__title">
+          Cursos:
+        </Heading>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

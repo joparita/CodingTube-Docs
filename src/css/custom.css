@@ -53,9 +53,3 @@
   --ifm-color-primary-lightest: #0099ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-
-.card {
-  border: 1px solid red;
-  display: flex;
-  align-self: center;
-}

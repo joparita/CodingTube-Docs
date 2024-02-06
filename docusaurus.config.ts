@@ -82,24 +82,20 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentación',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'React',
+              to: '/docs/category/react',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Redes Sociales',
           items: [
             {
               label: 'YouTube',
               href: 'https://www.youtube.com/CodingTube',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Davichobits',
             },
             {
               label: 'Twitter',
@@ -108,12 +104,8 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: 'Más',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/Davichobits',

@@ -64,7 +64,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, urlImg, description, link}: FeatureItem) {
   return (
-    <div className={`${clsx('col col--4')} card`}>
+    <div className={`${clsx('col col--4')}`}>
       <div className="text--center">
         <a href={link} target='_blank'>
           <img src={urlImg} alt={title} className={styles.featureSvg} />

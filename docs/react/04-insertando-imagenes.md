@@ -13,10 +13,12 @@ En HTML para insertar una imagen, simplemente debemos usar la etiqueta `img` y e
 Pero en React debemos importar la imagen primero y luego usarla en el atributo `src`.
 
 ```jsx
+import imagen from './ruta-de-la-imagen.jpg';
+
 const App = () => {
   return (
     <div>
-      <img src="ruta-de-la-imagen.jpg" alt="Descripción de la imagen" />
+      <img src={imagen} alt="Descripción de la imagen" />
     </div>
   );
 };

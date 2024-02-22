@@ -101,6 +101,10 @@ const config: Config = {
               label: 'Twitter',
               href: 'https://twitter.com/CodingTube',
             },
+            {
+              label: 'TikTok',
+              href: 'https://www.tiktok.com/@codingtube',
+            },
           ],
         },
         {
@@ -113,7 +117,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} CodingTube`,
+      copyright: `Copyright © ${new Date().getFullYear()} CodingTube. - Programado con ❤️ por <a target="_blank" href="https://www.linkedin.com/in/davidirc/" >David Ruiz.</a>`,
     },
     prism: {
       theme: prismThemes.github,

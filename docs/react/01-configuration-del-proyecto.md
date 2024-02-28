@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Configuración del proyecto
+# 🚧 Configuración del proyecto
 
 ## Crear un nuevo proyecto de React
 

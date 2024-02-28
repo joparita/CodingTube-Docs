@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
-# Renderizado de listas
+# 📋 Renderizado de listas
 
 ## ¿Qué es el renderizado de listas?
 
@@ -31,6 +31,5 @@ const App = () => {
 El atributo `key` es un atributo especial que se utiliza en React para darle a cada elemento de una lista un identificador único. El atributo `key` es necesario para que React pueda identificar los elementos de la lista y realizar un renderizado eficiente.
 
 ## Explicación en video:
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2SR0cH0Qcno?si=y1aKoM79IsodSBoR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

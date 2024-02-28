@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
-# Insertando imágenes en React
+# 🖼️ Insertando imágenes en React
 
 En HTML para insertar una imagen, simplemente debemos usar la etiqueta `img` y el atributo `src` para indicar la ruta de la imagen.
 

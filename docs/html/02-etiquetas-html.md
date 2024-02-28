@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# ¿Qué son las etiquetas en HTML?
+# 🏷️ Etiquetas HTML
 
 Las etiquetas en HTML, son la forma en la que podemos estructurar el contenido de nuestra página web. Es decir, si queremos especificar que cierto contenido es un título, tenemos una etiqueta para ello que se llama `h1` y su escritura es de la siguiente manera:
 

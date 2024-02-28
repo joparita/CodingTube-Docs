@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Creando tu primer componente
+# 🐣 Tu primer componente
 
 ## ¿Qué es un componente?
 

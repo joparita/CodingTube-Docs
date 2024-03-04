@@ -118,4 +118,4 @@ En este caso, el contenido de la etiqueta `div` es un título y un párrafo, que
 
 ## Explicación en video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GucaPbn9Cf8?si=F6LqPPNSVLGJFfRW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="444" src="https://www.youtube.com/embed/GucaPbn9Cf8?si=F6LqPPNSVLGJFfRW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

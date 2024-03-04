@@ -123,3 +123,7 @@ En el ejemplo anterior:
 2. La función `useState` recibe un argumento que representa el valor inicial del estado, en este caso un objeto con las propiedades `name` y `age`. 
 3. La función `useState` devuelve un array con dos elementos: el valor actual del estado y una función para actualizar el estado. En este caso, el valor actual del estado es un objeto con las propiedades `name` y `age` y la función para actualizar el estado es `setUser`. 
 4. Sacamos una copia del valor actual del estado (principio de inmutabilidad) para mostrar el nombre y la edad del usuario y utilizamos la función para actualizar el estado cambiando el nombre y la edad del usuario cuando se hace clic en el botón.
+
+## Explicación en video:
+
+<iframe width="100%" height="444" src="https://www.youtube.com/embed/5uzANkOsM-E?si=dzXlnTixgPrqauvy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

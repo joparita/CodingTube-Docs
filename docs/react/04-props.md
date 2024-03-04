@@ -58,4 +58,4 @@ componente.
 En el siguiente video tendrás una explicación más a profundidad de los
 componentes anidados y los props.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Kcr_3nJcvmk?si=Ngj6J9eQgoKM85yF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="444" src="https://www.youtube.com/embed/Kcr_3nJcvmk?si=Ngj6J9eQgoKM85yF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -41,4 +41,4 @@ Donde `my-react-app` es el nombre del proyecto que creamos anteriormente. Este c
 
 ## Explicación en video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-Qo1UeDnBbo?si=8iNCZO5LADzFSVp-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="444" src="https://www.youtube.com/embed/-Qo1UeDnBbo?si=8iNCZO5LADzFSVp-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -32,4 +32,4 @@ El atributo `key` es un atributo especial que se utiliza en React para darle a c
 
 ## Explicación en video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2SR0cH0Qcno?si=y1aKoM79IsodSBoR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="444"src="https://www.youtube.com/embed/2SR0cH0Qcno?si=y1aKoM79IsodSBoR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

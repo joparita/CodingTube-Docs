@@ -85,6 +85,10 @@ const config: Config = {
           title: 'Documentación',
           items: [
             {
+              label: 'HTML',
+              to: '/docs/category/html',
+            },
+            {
               label: 'React',
               to: '/docs/category/react',
             },

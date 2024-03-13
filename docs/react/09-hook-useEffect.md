@@ -42,3 +42,9 @@ En el ejemplo anterior:
 ## Arreglo de dependencias
 
 El segundo argumento de `useEffect` es un array de dependencias. Este array es opcional y se utiliza para especificar las dependencias que el efecto secundario tiene. Si el array de dependencias está vacío, el efecto secundario se ejecutará después de cada renderizado del componente. Si el array de dependencias contiene una o más variables de estado, el efecto secundario se ejecutará solamente si alguna de las dependencias ha cambiado.
+
+## Explicación en video
+
+¿Deseas ver esta explicación a detalle en video? Te lo dejo aquí:
+
+<iframe width="100%" height="444" src="https://www.youtube.com/embed/zyOcbYcGvXU?si=Qa6MLxYf_FTB7k8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

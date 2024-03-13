@@ -47,11 +47,48 @@ const config: Config = {
           //editUrl:
             //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        pages: {
+          path: 'src/pages',
+          routeBasePath: '',
+          include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+          ],
+          mdxPageComponent: '@theme/MDXPage',
+          remarkPlugins: [],
+          rehypePlugins: [],
+          beforeDefaultRemarkPlugins: [],
+          beforeDefaultRehypePlugins: [],
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
     ],
+  //   [
+  //     '@docusaurus/preset-classic',
+  //     {
+  //       pages: {
+  //         path: 'src/pages',
+  //         routeBasePath: '',
+  //         include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
+  //         exclude: [
+  //           '**/_*.{js,jsx,ts,tsx,md,mdx}',
+  //           '**/_*/**',
+  //           '**/*.test.{js,jsx,ts,tsx}',
+  //           '**/__tests__/**',
+  //         ],
+  //         mdxPageComponent: '@theme/MDXPage',
+  //         // remarkPlugins: [require('./my-remark-plugin')],
+  //         rehypePlugins: [],
+  //         beforeDefaultRemarkPlugins: [],
+  //         beforeDefaultRehypePlugins: [],
+  //       },
+  //     },
+    // ]
   ],
 
   themeConfig: {
@@ -70,6 +107,7 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
+        {to: '/portfolio', label: 'Portafolio', position: 'left'},
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://www.youtube.com/CodingTube',

@@ -126,3 +126,7 @@ export default function App() {
   );
 }
 ```
+
+## Explicación en video:
+
+<iframe width="100%" height="444" src="https://www.youtube.com/embed/dO8Z0mZGrvQ?si=HiGM5vVEBHy8k2EK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

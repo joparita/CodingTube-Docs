@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# 🖼️ ¿Cómo insertar imágenes en HTML?
+# 🖼️ Imágenes en HTML
 
 En HTML, las imágenes se insertan usando la etiqueta `img` de la siguiente manera:
 

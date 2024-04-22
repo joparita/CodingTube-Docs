@@ -44,7 +44,17 @@ La etiqueta input puede tener varios tipos de input, entre los más conocidos se
 - `tel`: Crea un campo de telefono.
 - `search`: Crea un campo de busqueda.
 
-¿Quieres conocer más detalles sobre cómo crear formularios con HTML?
+Cada uno de los tipos anteriores genera un input diferente. Por ejemplo, si el tipo es "submit" genera un botón, como en el ejemplo anterior, y si es tipo "password" genera un campo para ingresar una contraseña (de esos que en vez de mostrar el texto, muestra una serie de puntos \*\*\*\*).
+
+## Ejemplo de formulario de login.
+
+En la siguiente imagen podrás ver de una forma más gráfica algunos de los tipos de input más utilizados para generar un formulario.
+
+![formulario](./img/form.webp)
+
+:::tip
+Te recomiendo ir probando cada uno de los tipos de input para que conoscas su funcionamiento y te vayas familiarizando con ellos. Pero si quieres ver un ejemplo de cada uno de ellos, puedes ver el siguiente video.
+:::
 
 # Te explico cómo crear formularios en HTML paso a paso aquí:
 

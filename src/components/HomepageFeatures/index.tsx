@@ -34,7 +34,10 @@ const FeatureList: FeatureItem[] = [
     urlImg: require("@site/static/img/javascript.png").default,
     link: "https://www.youtube.com/watch?v=3oSeQb94Ga4&list=PLJubkp8BnTJsDgWXWcS1Z0VDV7rAOqbU4",
     description: (
-      <>Aprende a darle funcionalidad a tu página web con Javascript.</>
+      <>
+        Aprende a dar funcionalidad e interactividad a tu página web con
+        Javascript.
+      </>
     ),
   },
   {
@@ -52,21 +55,34 @@ const FeatureList: FeatureItem[] = [
     title: "React",
     urlImg: require("@site/static/img/react.png").default,
     link: "https://www.youtube.com/watch?v=Ed9OM9uQTAA&list=PLJubkp8BnTJshwFKJGgAiQy2HrkTeYT1a",
-    description: <>Aprende a crear aplicaciones web con React.</>,
+    description: (
+      <>
+        La librería más usada en desarollo web. Aprende a crear aplicaciones web
+        con React.
+      </>
+    ),
   },
 ];
 
 function Feature({ title, urlImg, description, link }: FeatureItem) {
   return (
-    <div className={`${clsx("col col--4")} card`}>
-      <div className="text--center">
-        <a href={link} target="_blank">
-          <img src={urlImg} alt={title} className={styles.featureSvg} />
-        </a>
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+    <div className="col col--4 margin-vert--md">
+      <div className="card item shadow--md">
+        <div className="card__image">
+          <img src={urlImg} alt="Image alt text" title="Logo Title Text 1" />
+        </div>
+        <div className="card__body">
+          <h4>{title}</h4>
+          <small>{description}</small>
+        </div>
+        <div className="card__footer">
+          <button
+            className="button button--primary button--block"
+            onClick={() => window.open(link, "_blank")}
+          >
+            Saber más
+          </button>
+        </div>
       </div>
     </div>
   );

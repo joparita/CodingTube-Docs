@@ -6,6 +6,7 @@ type FeatureItem = {
   title: string;
   urlImg: string;
   link: string;
+  linkDoc?: string;
   description: JSX.Element;
 };
 
@@ -14,6 +15,7 @@ const FeatureList: FeatureItem[] = [
     title: "HTML",
     urlImg: require("@site/static/img/HTML.png").default,
     link: "https://www.youtube.com/watch?v=QwMlgfMK6fQ&list=PLJubkp8BnTJt-pKYkVNLt72n1hKmYmkFw",
+    linkDoc: "/docs/category/html",
     description: (
       <>Toda página debe tener una estructura HTML, empieza por aquí.</>
     ),
@@ -22,6 +24,7 @@ const FeatureList: FeatureItem[] = [
     title: "CSS",
     urlImg: require("@site/static/img/CSS.png").default,
     link: "https://www.youtube.com/watch?v=I_RG3bNjTfQ&list=PLJubkp8BnTJt1u6z_voRiYtwskmP0VVzw",
+    linkDoc: "/docs/category/css",
     description: (
       <>
         Los estilos son importantes para que tu página se vea bien, aprende a
@@ -55,6 +58,7 @@ const FeatureList: FeatureItem[] = [
     title: "React",
     urlImg: require("@site/static/img/react.png").default,
     link: "https://www.youtube.com/watch?v=Ed9OM9uQTAA&list=PLJubkp8BnTJshwFKJGgAiQy2HrkTeYT1a",
+    linkDoc: "/docs/category/react",
     description: (
       <>
         La librería más usada en desarollo web. Aprende a crear aplicaciones web
@@ -64,7 +68,7 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({ title, urlImg, description, link }: FeatureItem) {
+function Feature({ title, urlImg, description, link, linkDoc }: FeatureItem) {
   return (
     <div className="col col--4 margin-vert--md">
       <div className="card item shadow--md">
@@ -75,13 +79,24 @@ function Feature({ title, urlImg, description, link }: FeatureItem) {
           <h4>{title}</h4>
           <small>{description}</small>
         </div>
+
         <div className="card__footer">
-          <button
-            className="button button--primary button--block"
-            onClick={() => window.open(link, "_blank")}
-          >
-            Saber más
-          </button>
+          <div className="button-group button-group--block">
+            {linkDoc && (
+              <button
+                className="button button--secondary button--block"
+                onClick={() => window.open(linkDoc, "_blank")}
+              >
+                Docs
+              </button>
+            )}
+            <button
+              className="button button--primary button--block"
+              onClick={() => window.open(link, "_blank")}
+            >
+              Videos
+            </button>
+          </div>
         </div>
       </div>
     </div>

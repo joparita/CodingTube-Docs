@@ -132,6 +132,10 @@ const config: Config = {
               to: '/docs/category/html',
             },
             {
+              label: 'CSS',
+              to: '/docs/category/css',
+            },
+            {
               label: 'React',
               to: '/docs/category/react',
             },

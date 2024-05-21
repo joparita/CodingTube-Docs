@@ -110,11 +110,6 @@ const config: Config = {
         {to: '/portfolio', label: 'Portafolio', position: 'left'},
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Davichobits/CodingTube-Docs',
-          label: 'Fork',
-          position: 'right',
-        },
-        {
           href: 'https://www.youtube.com/CodingTube',
           label: 'YouTube',
           position: 'right',

@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 type FeatureItem = {
   title: string;
   urlImg: string;
-  link: string;
+  link?: string;
   linkDoc?: string;
   description: JSX.Element;
 };
@@ -66,6 +66,15 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
+  {
+    title: "Phaser",
+    urlImg: require("@site/static/img/phaser.png").default,
+    // link: "https://www.youtube.com/CodingTube",
+    linkDoc: "/docs/category/phaser",
+    description: (
+      <>Framework Open Source de JavaScript para crear videojuegos HTML5.</>
+    ),
+  },
 ];
 
 function Feature({ title, urlImg, description, link, linkDoc }: FeatureItem) {
@@ -90,12 +99,14 @@ function Feature({ title, urlImg, description, link, linkDoc }: FeatureItem) {
                 Docs
               </button>
             )}
-            <button
-              className="button button--primary button--block"
-              onClick={() => window.open(link, "_blank")}
-            >
-              Videos
-            </button>
+            {link && (
+              <button
+                className="button button--primary button--block"
+                onClick={() => window.open(link, "_blank")}
+              >
+                Videos
+              </button>
+            )}
           </div>
         </div>
       </div>

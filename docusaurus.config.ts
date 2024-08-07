@@ -98,7 +98,7 @@ const config: Config = {
       title: 'CodingTube',
       logo: {
         alt: 'CodingTube Logo',
-        src: 'img/Logo.jpg',
+        src: 'img/CodingTube-logo.png',
       },
       items: [
         {

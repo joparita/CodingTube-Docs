@@ -4,6 +4,10 @@ sidebar_position: 4
 
 # 🖼️ Cargar imágenes en Phaser
 
+La carga de imágenes en Phaser es muy sencilla, se la realiza en dos pasos:
+
+## Cargar la imagen en el `preload`
+
 La carga de imágenes la hacemos dentro de la función `preload`. Para esto utilizamos el método `load.image` de la escena (identificada con la palabra reservada `this`).
 
 ```js
@@ -16,6 +20,8 @@ El método `load.image` recibe dos parámetros:
 
 - `key` el nombre de la imagen que le queremos asignar.
 - `url` la ruta de la imagen.
+
+## Agregar la imagen en el `create`
 
 Luego para dibujar esta imagen dentro de nuestro juego haremos referencia a esta imagen en el método `add.image` dentro del método `create`:
 

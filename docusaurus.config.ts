@@ -164,6 +164,10 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/Davichobits',
             },
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/davidirc/',
+            },
           ],
         },
       ],

@@ -10,6 +10,7 @@ Te dejo un listado de tutoriales para aprender Phaser gratuitamente:
 
 | Autor         | Tipo  | Link                                                                                                                        |
 | ------------- | ----- | --------------------------------------------------------------------------------------------------------------------------- |
+| Phaser        | Blog  | [Cómo crear tu primer juego con Phaser](https://phaser.io/tutorials/making-your-first-phaser-3-game-spanish)                |
 | Gammafp       | video | [Curso de Phaser](https://youtube.com/playlist?list=PLL_H5w4KA8dP9pPayzYxHCD4IQ80nkfY9&si=LL2aQIX-Lo3NwAXv)                 |
 | ManzDev       | video | [Aprendiendo Phaser](https://youtube.com/playlist?list=PLx5xbrpW6nXjMBNQZpgmq8Kva-hT0jt4y&si=gPJpPGsqugo7zoJK)              |
 | ManzDev       | Blog  | [Phaser JS Game Engine](https://lenguajejs.com/phaser/introduccion/que-es-phaser/)                                          |

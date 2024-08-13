@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -37,7 +37,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: ({versionDocsDirPath, docPath}) =>
+          editUrl: ({ versionDocsDirPath, docPath }) =>
             `https://github.com/Davichobits/CodingTube-Docs/edit/main/${versionDocsDirPath}/${docPath}`,
         },
         blog: {
@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
-            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         pages: {
           path: 'src/pages',
@@ -68,26 +68,26 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
-  //   [
-  //     '@docusaurus/preset-classic',
-  //     {
-  //       pages: {
-  //         path: 'src/pages',
-  //         routeBasePath: '',
-  //         include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
-  //         exclude: [
-  //           '**/_*.{js,jsx,ts,tsx,md,mdx}',
-  //           '**/_*/**',
-  //           '**/*.test.{js,jsx,ts,tsx}',
-  //           '**/__tests__/**',
-  //         ],
-  //         mdxPageComponent: '@theme/MDXPage',
-  //         // remarkPlugins: [require('./my-remark-plugin')],
-  //         rehypePlugins: [],
-  //         beforeDefaultRemarkPlugins: [],
-  //         beforeDefaultRehypePlugins: [],
-  //       },
-  //     },
+    //   [
+    //     '@docusaurus/preset-classic',
+    //     {
+    //       pages: {
+    //         path: 'src/pages',
+    //         routeBasePath: '',
+    //         include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
+    //         exclude: [
+    //           '**/_*.{js,jsx,ts,tsx,md,mdx}',
+    //           '**/_*/**',
+    //           '**/*.test.{js,jsx,ts,tsx}',
+    //           '**/__tests__/**',
+    //         ],
+    //         mdxPageComponent: '@theme/MDXPage',
+    //         // remarkPlugins: [require('./my-remark-plugin')],
+    //         rehypePlugins: [],
+    //         beforeDefaultRemarkPlugins: [],
+    //         beforeDefaultRehypePlugins: [],
+    //       },
+    //     },
     // ]
   ],
 
@@ -120,7 +120,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Documentación',
+          title: 'Documentaciones',
           items: [
             {
               label: 'HTML',
@@ -133,6 +133,10 @@ const config: Config = {
             {
               label: 'React',
               to: '/docs/category/react',
+            },
+            {
+              label: 'Phaser',
+              to: '/docs/category/phaser',
             },
           ],
         },

@@ -50,3 +50,21 @@ https://cdn.jsdelivr.net/npm/phaser@v3.80.1/dist/phaser.min.js
 ## Descarga el proyecto
 
 También puedes descargar el proyecto con el código completo, minificado o en formato zip desde [aquí](https://phaser.io/download/stable)
+
+Recuerda que una vez que hayas descargado el proyecto, es necesario llamarlo desde tu archivo html. Por ejemplo:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example</title>
+</head>
+<body>
+  <div id="game"></div>
+  <script src="./phaser.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
+```

@@ -27,6 +27,8 @@ function preload() {
 }
 ```
 
+`this` representa el juego o una escena del mismo en caso que tengas divido tu juego en escenas.
+
 El método `load.spritesheet` recibe tres parámetros:
 
 - `key` el nombre del sprite que le queremos asignar.

@@ -8,15 +8,15 @@ Antes de empezar a crear tu videojuego en Phaser, es necesario crear la configur
 
 ```js
 const config = {
-  type: AUTO,
+  type: Phaser.AUTO,
   width: 800,
   height: 600,
   roundPixels: true,
   pixelArt: true,
   backgroundColor: "#000",
   scale: {
-    mode: Scale.FIT,
-    autoCenter: Scale.CENTER_BOTH,
+    mode: Phaser.Scale.FIT,
+    autoCenter: Phaser.Scale.CENTER_BOTH,
   },
   physics: {
     default: "arcade",
@@ -30,7 +30,7 @@ const config = {
     create: create,
     update: update,
   },
-};
+}
 ```
 
 En el objeto anterior, se está especificando lo siguiente:
@@ -58,5 +58,8 @@ En el objeto anterior, se está especificando lo siguiente:
   - `update` es una función que se ejecuta cada vez que el juego se actualice. Puedes utilizar esta función para actualizar el estado del juego.
 
 :::note[Nota]
-Una vez que tienes tu objeto configuración, es necesario inicializarlo pasando el objeto al constructor de Phaser de la siguiente forma: `new Phaser.Game(config)`.
+Una vez que tienes tu objeto configuración, es necesario inicializarlo pasando el objeto al constructor de Phaser de la siguiente forma: 
+```js
+new Phaser.Game(config)
+```
 :::

@@ -17,6 +17,7 @@ Te dejo un listado de tutoriales para aprender Phaser gratuitamente:
 | DesarrolloWeb | video | [Desarrollo de juegos con Phaser](https://youtube.com/playlist?list=PLIcuwIrm4rKeWg-592IgvbnAVoac-nmZJ&si=9VX_8J1yYoAxBdRo) |
 | Midulive      | Video | [Mario Bros](https://youtube.com/playlist?list=PLUofhDIg_38oOofMi5sh1hXWZs44lD41z&si=OuuzSQPJlRNheG1o)                      |
 | MDN web docs  | Blog  | [Introducción al Desarrollo de Juegos en HTML5 con Phaser](https://developer.mozilla.org/es/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation)                        |
+| XXHIDATEXX    | Video | [Curso Básico Phaser 3](https://youtube.com/playlist?list=PLf7shAYyfc3r8OeeUvVVEb2FzySGZktHk&si=tWq1n7WkUuHfHyKf)           |
 
 ## Inglés:
 
@@ -28,3 +29,4 @@ Te dejo un listado de tutoriales para aprender Phaser gratuitamente:
 | Ansimuz        | Video | [Phaser Tutorials](https://youtube.com/playlist?list=PLDyH9Tk5ZdFzEu_izyqgPFtHJJXkc79no&si=ds9iIcCV1kzvb0jU)                              |
 | Shakuro        | Blog  | [A Step-by-Step Tutorial On Making A Phaser 3 Game](https://shakuro.com/blog/phaser-js-a-step-by-step-tutorial-on-making-a-phaser-3-game) |
 | WebTips        | Blog  | [How to remake Mario in Phaser](https://webtips.dev/webtips/phaser/remake-mario-in-phaserjs-part1)                                        |
+| WClarkson      | Video  | [Phaser 3 ](https://youtube.com/playlist?list=PLkpBJaFZykNDspZT7IPi2YlV4ybNu0RXF&si=WMXUlBnAPqIbqpK2)                                    |

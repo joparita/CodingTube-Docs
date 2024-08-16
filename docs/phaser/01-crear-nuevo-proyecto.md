@@ -64,7 +64,7 @@ Recuerda que una vez que hayas descargado el proyecto, es necesario llamarlo des
 <body>
   <div id="game"></div>
   <script src="./phaser.min.js"></script>
-  <script src="./main.js"></script>
+  <script type="module" src="./main.js"></script>
 </body>
 </html>
 ```

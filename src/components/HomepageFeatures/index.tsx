@@ -94,7 +94,7 @@ function Feature({ title, urlImg, description, link, linkDoc }: FeatureItem) {
             {linkDoc && (
               <button
                 className="button button--secondary button--block"
-                onClick={() => window.open(linkDoc, "_blank")}
+                onClick={() => window.open(linkDoc, "_self")}
               >
                 Docs
               </button>

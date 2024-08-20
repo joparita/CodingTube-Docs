@@ -138,6 +138,10 @@ const config: Config = {
               label: 'Phaser',
               to: '/docs/category/phaser',
             },
+            {
+              label: 'Dart',
+              to: '/docs/category/dart',
+            },
           ],
         },
         {
@@ -176,6 +180,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['dart'],
     },
   } satisfies Preset.ThemeConfig,
 };

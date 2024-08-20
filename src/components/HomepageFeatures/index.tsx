@@ -75,6 +75,15 @@ const FeatureList: FeatureItem[] = [
       <>Framework Open Source de JavaScript para crear videojuegos HTML5.</>
     ),
   },
+  {
+    title: "Dart",
+    urlImg: require("@site/static/img/dart.png").default,
+    link: "https://www.youtube.com/watch?v=ymTczP7hDCE&list=PLJubkp8BnTJsinoOsYfDucgvTbo4Xb_ti",
+    linkDoc: "/docs/category/dart",
+    description: (
+      <>Dart es el lenguaje de programación que se utiliza para crear aplicaciones móviles con Flutter.</>
+    ),
+  },
 ];
 
 function Feature({ title, urlImg, description, link, linkDoc }: FeatureItem) {

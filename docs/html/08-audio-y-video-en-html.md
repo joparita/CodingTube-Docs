@@ -47,11 +47,11 @@ Aquí el atributo `controls` también indica al navegador que deben mostarse los
 Si necesitas insertar un video de respaldo, se puede hacer de la misma forma en que se inserta un audio de respaldo, es decir anidando la etiqueta source dentro de la etiqueta audio:
 
 ```html
-<audio controls>
+<video controls>
   <source src="asset/recording.mp4" type="video/mp4" />
   <source src="asset/recording.wav" type="video/wav" />
   El navegador no soporta HTML5.
-</audio>
+</video>
 ```
 
 ## Atributos opcionales para audio y video

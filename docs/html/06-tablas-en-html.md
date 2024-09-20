@@ -23,11 +23,11 @@ En HTML, las tablas se crean con la etiqueta `table` y los elementos de la tabla
     <td>Estudiar</td>
   </tr>
   <tr>
-    <td>Descanzar</td>
-    <td>Descanzar</td>
-    <td>Descanzar</td>
-    <td>Descanzar</td>
-    <td>Descanzar</td>
+    <td>Descansar</td>
+    <td>Descansar</td>
+    <td>Descansar</td>
+    <td>Descansar</td>
+    <td>Descansar</td>
   </tr>
 </table>
 ```
@@ -62,11 +62,11 @@ Para expandir una celda, debes usar el atributo `colspan`, por ejemplo:
     <td>Estudiar</td>
   </tr>
   <tr>
-    <td>Descanzar</td>
-    <td>Descanzar</td>
-    <td>Descanzar</td>
-    <td>Descanzar</td>
-    <td>Descanzar</td>
+    <td>Descansar</td>
+    <td>Descansar</td>
+    <td>Descansar</td>
+    <td>Descansar</td>
+    <td>Descansar</td>
   </tr>
 </table>
 ```
